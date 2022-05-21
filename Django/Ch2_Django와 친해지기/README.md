@@ -110,13 +110,25 @@
   $pip uninstall 패키지명       # 패키지 제거
   $pip freeze                 # 현재 설치된 패키지와 버전 목록 조회
   ```
-</detials>
-
-<details>
-  <summary>Web Service, Web Framework</summary>
-  - www : World Wide Web, 정보의 그물망 -> url, http, html
-  1. URL : 정보 자원이 어디 있는지를 나타내는 표식
-  2. HTTP : 정보자원으로 접근하고 통신하게 해 주는 약속, protocol 요청 -> get : "갖다줘" , post = "처리해줘
-  3. HTML
+  </details>
   
+<details><summary>Web Service, Web Framework</summary><br>
+  
+  ### What is Web Service?
+  
+  - `www` : World Wide Web, _정보의 그물망_
+  > 웹의 역할 -> `url`, `http`, `html`
+  
+  1. **URL** : 정보 자원이 어디 있는지를 나타내는 표식
+  2. **HTTP** : 정보자원으로 접근하고 통신하게 해 주는 약속, protocol 요청 -> get : "갖다줘" , post = "처리해줘
+  3. **HTML** : 응답으로서의 정보 자원 자체/다른 정보 자원과 연결 매개체
+
+  - `Server` : 간직하고 있는 url로 http요청이 들어오면 응답
+  - `Web Browser` : 서버로 http 통신 보냄, 응답으로 받은 html 코드를 보기 좋은 화면으로 만듦
+  
+  🌟 **Web Service** : **HTML과 URL을 미리 준비해 놓고 사용자 요청에 대한 응답을 보낼 수 있는 프로그램**
 </details>
+  
+
+
+
