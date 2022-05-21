@@ -90,9 +90,33 @@
   
   ## 4. 모듈, 패키지, 라이브러리
   
-  - 모듈 : 가장 작은 단위의 파이썬으로 정의된 파일, `import`를 통해 다른 파일의 모듈을 사용할 수 있음
-  - 패키지 : 모듈의 집합, 모듈의 계층 단위
-  - 라이브러리 :
+  - **모듈** : 가장 작은 단위의 파이썬으로 정의된 파일, `import`를 통해 다른 파일의 모듈을 사용할 수 있음
+  - **패키지** : 모듈의 집합, 모듈의 계층 단위
+  ```python
+  # My Project 폴더에 Data라는 폴더 속에 save.py, get.py, delete.py가 있다면 Data/==패키지
   
+  import data.save
+  import data.get
+  import data.delete
+  ```
+  - **라이브러리** : 쓸만한 기능들을 미리 모듈/패키지로 만들어 놓은 것, 미리 준비된 모듈 및 패키지
+  - Python Standard Library(파이썬 내장함수), Python Package Index(PyPI: 사람들이 만든 라이브러리) 
+  - `pip` : Python Package Management System (다운 받은 패키지를 관리하는 툴)
+  
+  ```python
+  $pip install 패키지명         # 패키지 설치
+  $pip install 패키지명==1.04   # 특정 버전 지정하여 설치
+  $pip search 패키지명          # 패키지 검색
+  $pip uninstall 패키지명       # 패키지 제거
+  $pip freeze                 # 현재 설치된 패키지와 버전 목록 조회
+  ```
 </detials>
 
+<details>
+  <summary>Web Service, Web Framework</summary>
+  - www : World Wide Web, 정보의 그물망 -> url, http, html
+  1. URL : 정보 자원이 어디 있는지를 나타내는 표식
+  2. HTTP : 정보자원으로 접근하고 통신하게 해 주는 약속, protocol 요청 -> get : "갖다줘" , post = "처리해줘
+  3. HTML
+  
+</details>
